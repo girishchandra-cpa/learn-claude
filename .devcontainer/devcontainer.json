@@ -1,0 +1,6 @@
+{
+  "name": "claude-code-dev",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash",
+  "postAttachCommand": "echo 'Claude Code ready — run: claude'"
+}
